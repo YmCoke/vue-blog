@@ -1,0 +1,13 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "doce:build": "vuepress build docs"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@vuepress/plugin-pwa": "^1.5.2"
+  }
+}

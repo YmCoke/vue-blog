@@ -1,0 +1,7 @@
+{
+    "name": "coke_blog",
+    "short_name": "blog",
+    "version": "1.0.0",
+    "description": "专注写算法滴前端工程师 - 可乐",
+    "manifest_version": 2
+}
