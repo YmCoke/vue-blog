@@ -31,5 +31,3 @@ function func(A, B) {
     if(flag == -1) res = '-' + res;
     return res;
 }
-
-console.log(func([2,3], [1,1]))
