@@ -1,6 +1,7 @@
 module.exports = {
     title: "coke的博客",
     description: '专注于写算法的前端工程师',
+    base: "/docs/.vuepress/dist",
     themeConfig: {
         sidebar: [
             {
