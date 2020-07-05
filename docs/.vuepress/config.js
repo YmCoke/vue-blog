@@ -9,7 +9,6 @@ module.exports = {
             },
             {
                 title: '排序算法',
-                collapsable: false,
                 children: [
                     { title: '快速排序', path: '/sort/quick_sort' },
                     { title: '归并排序', path: '/sort/merge_sort' }
@@ -19,8 +18,18 @@ module.exports = {
                 title: '二分算法',
                 children: ['/binary/']
             },
+            {
+                title: '高精度运算',
+                children: [
+                    { title: '介绍', path: '/high-precision/intro' },
+                    { title: '高精度加法', path: '/high-precision/sum' },
+                    { title: '高精度减法', path: '/high-precision/sub' },
+                    { title: '高精度乘法', path: '/high-precision/mul' },
+                    { title: '高精度除法', path: '/high-precision/div' }
+                ]
+            }
         ],
-        sidebarDepth: 2
+        sidebarDepth: 0
     },
     plugins: [
         '@vuepress/pwa', {
