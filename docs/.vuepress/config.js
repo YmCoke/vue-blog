@@ -28,6 +28,13 @@ module.exports = {
                     { title: '高精度乘法', path: '/high-precision/mul' },
                     { title: '高精度除法', path: '/high-precision/div' }
                 ]
+            },
+            {
+                title: '前缀和与差分',
+                children: [
+                    {title: '前缀和算法', path: '/prefix-sum&difference/prefix-sum'},
+                    {title: '差分算法', path: '/prefix-sum&difference/difference'}
+                ]
             }
         ],
         sidebarDepth: 0
