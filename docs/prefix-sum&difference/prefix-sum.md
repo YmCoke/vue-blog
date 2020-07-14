@@ -108,10 +108,6 @@ NumArray.prototype.sumRange = function(i, j) {
 };
 ```
 
-```js
-
-```
-
 ## 课后习题
 
 ### 扩展题
