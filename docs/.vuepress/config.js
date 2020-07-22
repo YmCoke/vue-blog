@@ -35,6 +35,16 @@ module.exports = {
                     {title: '前缀和算法', path: '/prefix-sum&difference/prefix-sum'},
                     {title: '差分算法', path: '/prefix-sum&difference/difference'}
                 ]
+            },
+            {
+                title: '双指针算法',
+                children: ['/two-point/']
+            },
+            {
+                title: '位运算',
+                children: [
+                    {title: 'lowbit算法', path: '/bit/'}
+                ]
             }
         ],
         sidebarDepth: 0
