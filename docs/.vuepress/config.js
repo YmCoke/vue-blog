@@ -45,6 +45,13 @@ module.exports = {
                 children: [
                     {title: 'lowbit算法', path: '/bit/'}
                 ]
+            },
+            {
+                title: '单调栈',
+                children: [
+                    {title: '算法讲解', path: '/stack/main'},
+                    {title: '习题讲解', path: '/stack/question'}
+                ]
             }
         ],
         sidebarDepth: 0
