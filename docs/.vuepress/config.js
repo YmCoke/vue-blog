@@ -49,7 +49,7 @@ module.exports = {
             {
                 title: '单调栈',
                 children: [
-                    {title: '算法讲解', path: '/stack/main'},
+                    {title: '算法讲解', path: '/stack/monotonousStack'},
                     {title: '习题讲解', path: '/stack/question'}
                 ]
             }
